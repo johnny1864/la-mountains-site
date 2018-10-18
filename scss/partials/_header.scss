@@ -1,0 +1,53 @@
+header {
+    height: 50px;
+    width: 100%;
+    z-index: 3;
+    position: fixed;
+    transition: all 500ms ease;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        height: inherit;
+        align-items: center
+    }
+
+    .logo {
+        height: 40px;
+        width: 40px;
+        margin-left: 20px;
+        background-image: url(../../assets/logo_1.jpg);
+        background-position: center center;
+        border-radius: 50%;
+        align-self: flex-end;
+
+    }
+
+    nav {
+        width: 200px;
+        display: flex;
+        justify-content: space-between;
+        a {
+            color: #fff;
+            text-transform: uppercase;
+        }
+    }
+    
+    &.scroll-nav {
+        height: 75px;
+        position: fixed;
+        background-color: #61759e;
+        
+        .logo{
+            align-self: center;
+            background-image: url(../../assets/logo_3.jpg);
+            border-radius: 0;
+            height: 50px;
+            width: 190px;
+        }
+        
+        a{
+            color: #2d4064;
+        }
+    }
+}

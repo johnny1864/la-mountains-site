@@ -1,0 +1,37 @@
+#history{
+    height: 900px;
+    background: url(../../assets/SnowyMtn.jpg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    p{
+        width: 85%;
+        margin: 0 auto;
+        line-height: 1.5em;
+        color: #444;
+        font-size: 0.75rem;
+        font-family: 'Lato', Arial, sans-serif;
+    }
+    .carousel{
+        height: 200px;
+        width: 100%;
+        background-color: rgba(64, 79, 108, 0.95);
+        
+        .container{
+            display: flex;
+            height: 100%;
+            align-items: flex-end;
+            justify-content: space-around;
+            padding-top: 10px;
+            
+            img:nth-of-type(odd){
+                align-self: flex-start;
+            }
+            
+        }
+    }
+}
+

@@ -1,0 +1,96 @@
+#climb {
+    height: 700px;
+    position: relative;
+    overflow: hidden;
+    transition: all 500ms ease;
+
+    .banner {
+        height: 180px;
+        width: 100%;
+        background-color: #61759e;
+
+        .container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 0 40px;
+            height: 100%;
+            width: 100%;
+        }
+        p {
+            width: 62%;
+            font-size: 1rem;
+            font-family: 'Oswald', Arial, sans-serif;
+            font-weight: 300;
+        }
+    }
+
+    .title {
+        margin-top: 0;
+        align-self: flex-end;
+        width: 25%;
+        transform: translateY(-30px);
+    }
+
+    .tabs {
+        background-color: #404F6C;
+        height: 40px;
+        width: 100%;
+        
+        a{
+            color: #b0b4be;
+            font-size: 1.25rem;
+            font-family: 'Oswald', Arial, sans-serif;
+            text-decoration: none;
+        }
+        
+        .active{
+            color: #414f6b;
+            background-color: #b0b4be;
+            text-decoration: underline;
+            padding: 10px 10px 15px;
+        }
+    }
+    
+    .mountain-1{
+        background: url(../../assets/tabImg_1.jpg) no-repeat;
+    }
+    
+    .mountain-2{
+        background: url(../../assets/tabImg_2_02.jpg) no-repeat;
+    }
+
+    .climb-bg {
+        height: 100%;
+        background-position: center center;
+        background-size: cover;
+    }
+
+    .schedule {
+        color: #404F6C;
+        background-color: rgba(255, 255, 255, 0.7);
+        width: 25%;
+        margin-left: 30px;
+        width: 350px;
+        padding: 20px;
+        transform: translate(30px, 100px);
+    }
+
+    table {
+        width: 100%;
+        text-align: left;
+        margin: 0 auto;
+        font-family: 'Oswald', Arial, sans-serif;
+
+        th {
+            font-size: 2rem;
+            padding: 5px 0;
+            text-transform: uppercase;
+        }
+
+        td {
+            height: 1rem;
+            font-family: 'Lato', sans-serif;
+        }
+    }
+}

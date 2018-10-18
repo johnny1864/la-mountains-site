@@ -1,0 +1,18 @@
+footer{
+    height: 75px;
+    background-color: #414f6b;
+    
+    .container{
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    p{
+        color: #63769d;
+        font-size: 0.75rem;
+        font-family: 'Lato', Arial, sans-serif;
+    }
+    
+}
