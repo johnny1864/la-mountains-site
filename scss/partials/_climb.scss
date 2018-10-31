@@ -61,6 +61,7 @@
     }
 
     .climb-bg {
+        transition: all 500ms ease;
         height: 100%;
         background-position: center center;
         background-size: cover;
@@ -74,6 +75,10 @@
         width: 350px;
         padding: 20px;
         transform: translate(30px, 100px);
+    }
+    
+    #schedule-2 {
+        display: none;
     }
 
     table {

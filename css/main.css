@@ -195,6 +195,7 @@ header.scroll-nav a {
   background: url("../assets/tabImg_2_02.jpg") no-repeat;
 }
 #climb .climb-bg {
+  transition: all 500ms ease;
   height: 100%;
   background-position: center center;
   background-size: cover;
@@ -207,6 +208,9 @@ header.scroll-nav a {
   width: 350px;
   padding: 20px;
   transform: translate(30px, 100px);
+}
+#climb #schedule-2 {
+  display: none;
 }
 #climb table {
   width: 100%;
