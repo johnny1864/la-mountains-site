@@ -16,7 +16,7 @@ header {
         height: 40px;
         width: 40px;
         margin-left: 20px;
-        background-image: url(../../assets/logo_1.jpg);
+        background-image: url("../assets/logo_1.jpg");
         background-position: center center;
         border-radius: 50%;
         align-self: flex-end;
@@ -40,7 +40,7 @@ header {
         
         .logo{
             align-self: center;
-            background-image: url(../../assets/logo_3.jpg);
+            background-image: url("../assets/logo_3.jpg");
             border-radius: 0;
             height: 50px;
             width: 190px;
