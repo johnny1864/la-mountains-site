@@ -124,22 +124,33 @@ header.scroll-nav a {
   font-size: 0.75rem;
   font-family: "Lato", Arial, sans-serif;
 }
-#history .carousel {
+#history .gallery {
   height: 200px;
   width: 100%;
   background-color: rgba(64, 79, 108, 0.95);
 }
-#history .carousel .container {
+#history .gallery .container {
   display: flex;
   height: 100%;
   align-items: flex-end;
   justify-content: space-around;
   padding-top: 10px;
 }
-#history .carousel .container img:nth-of-type(odd) {
+#history .gallery .container img.up {
   align-self: flex-start;
 }
+#history .gallery .container .animate {
+  animation: fadein 2s;
+}
 
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 #climb {
   height: 700px;
   position: relative;

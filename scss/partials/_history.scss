@@ -15,7 +15,7 @@
         font-size: 0.75rem;
         font-family: 'Lato', Arial, sans-serif;
     }
-    .carousel{
+    .gallery{
         height: 200px;
         width: 100%;
         background-color: rgba(64, 79, 108, 0.95);
@@ -26,12 +26,29 @@
             align-items: flex-end;
             justify-content: space-around;
             padding-top: 10px;
+             
             
-            img:nth-of-type(odd){
+            img.up{
                 align-self: flex-start;
+            }
+            
+            .animate{
+                animation: fadein 2s;
             }
             
         }
     }
 }
+
+@keyframes fadein {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+
+
 
